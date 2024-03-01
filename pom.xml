@@ -7,7 +7,7 @@
   <version>3.0-RELEASE</version>
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
-  <sonar.host.url>http://13.127.26.159:9000//</sonar.host.url>
+  <sonar.host.url>http://13.127.26.159:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>venkat</sonar.password>
   <dependencies>
