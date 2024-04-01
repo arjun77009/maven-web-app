@@ -1,7 +1,7 @@
 node {
     
     stage ('Git Clone'){
-        git credentialsId: 'c87aff7e-f5f1-4756-978f-3379694978e6', url: 'https://github.com/ashokitschool/maven-web-app.git'
+       git changelog: false, poll: false, url: 'https://github.com/arjun77009/maven-web-app.git'
     }
     
     stage ('Maven Clean Build'){
