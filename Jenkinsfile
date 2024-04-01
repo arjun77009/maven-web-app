@@ -11,7 +11,7 @@ node {
     }
     
     stage ('Build Docker Image'){
-       sh "docker build -t nvreddy124/mavenwebapp ."
+       sh "docker build -t nvreddy124/my.maven ."
     }
     
     stage ('Docker Push'){
